@@ -1,3 +1,10 @@
+<?php
+$email = filter_input(INPUT_POST,"email");
+$pwd = filter_input(INPUT_POST,"password");
+if(!empty($email)){ // especifico un correo electronico y procedemos a su validacion
+
+}
+ ?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -28,10 +35,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" method="post" action="index.php">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="email" placeholder="Email" class="form-control" name="email">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Contrase&ntilde;a" class="form-control">
+              <input type="password" placeholder="Contrase&ntilde;a" class="form-control" name="password">
             </div>
             <button type="submit" class="btn btn-success">Inicia Sesion</button>
           </form>
