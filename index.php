@@ -26,7 +26,7 @@
           <a class="navbar-brand" href="#">Facturaci&oacute;n Electr&oacute;nica CFDI</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
+          <form class="navbar-form navbar-right" method="post" action="index.php">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
             </div>
