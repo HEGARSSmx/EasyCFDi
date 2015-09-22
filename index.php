@@ -7,7 +7,7 @@
 
     <meta name="description" content="Pagina de presentacion e Inicio de Sesion de los usuarios">
     <meta name="author" content="Guadalupe Garza Moreno">
-
+    <link rel="shortcut icon" href="favicon.ico">
     <title>hegarss.com - Facturacion Electronica CFDI v1.0</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
