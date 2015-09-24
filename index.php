@@ -3,8 +3,7 @@ $email = filter_input(INPUT_POST,"email");
 $pwd = filter_input(INPUT_POST,"password");
 if(!empty($email)){ // especifico un correo electronico y procedemos a su validacion
   include_once('config.php');
-
-
+  
 }
  ?>
 <!DOCTYPE html>
