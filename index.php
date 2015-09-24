@@ -2,6 +2,8 @@
 $email = filter_input(INPUT_POST,"email");
 $pwd = filter_input(INPUT_POST,"password");
 if(!empty($email)){ // especifico un correo electronico y procedemos a su validacion
+  include_once('config.php');
+
 
 }
  ?>
@@ -15,7 +17,7 @@ if(!empty($email)){ // especifico un correo electronico y procedemos a su valida
     <meta name="description" content="Pagina de presentacion e Inicio de Sesion de los usuarios">
     <meta name="author" content="Guadalupe Garza Moreno">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>hegarss.com - Facturacion Electronica CFDI v1.0</title>
+    <title>EasyCFDi v1.0</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
@@ -30,7 +32,7 @@ if(!empty($email)){ // especifico un correo electronico y procedemos a su valida
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Facturaci&oacute;n Electr&oacute;nica CFDI</a>
+          <a class="navbar-brand" href="#">EasyCFDi</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" method="post" action="index.php">
@@ -49,7 +51,8 @@ if(!empty($email)){ // especifico un correo electronico y procedemos a su valida
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Bienvenido a Facturaci&oacute;n Electr&oacute;nica</h1>
+        <center><img src="./img/EasyCFDi-logo.png" class="img-responsive" alt="Responsive image"></center>
+        <h1>Bienvenido!!!</h1>
         <p>En nuestra plataforma podr&aacute;s encontrar todo lo necesario para realizar tus facturas electr&oacute;nicas en formato CFDI.
         Contamos con el servicio de timbrado y una plataforma adaptable dependiendo del giro de tu negocio.
         </p>
